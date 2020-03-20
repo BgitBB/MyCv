@@ -53,7 +53,7 @@ section{
 }
 article{
     text-align: justify;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
 }
 /* article p {
@@ -200,4 +200,8 @@ input[type="submit"] {
     #gallarysec img {
         width: 100%;
     }
+}
+
+span {
+    font-weight: bold;
 }

@@ -1,4 +1,31 @@
-body {
+.country {
+    width: 260px;
+    height: 160px;
+    border: solid;
+    margin: 10px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     margin:20px 5px;
     padding: 5px;
     width: 100%;
@@ -13,13 +40,13 @@ img {
     margin: 10px;
     padding: 5px;
     border: solid 3px rgb(0, 255, 21);
-}
+} */
 
-.rl {
+/* .rl {
     position: relative;
     top: 360px;
     border: solid 3px red;
-}
+} */
 
 /* .abs {
     position: absolute;
