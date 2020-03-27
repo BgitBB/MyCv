@@ -68,6 +68,9 @@ section{
     overflow: auto;
 
 }
+/* section:hover{
+    background-color: rgba(25, 165, 7, 0.6);
+} */
 article{
     text-align: justify;
     font-size: 1.5rem;
@@ -130,7 +133,15 @@ nav ul li a:hover{
     color: rgb(255, 255, 255);
     /* text-shadow: 0 0 70px rgb(4, 14, 49); */
     text-shadow: 0px 0px 10px rgb(221, 55, 55);
-    background-color: black; /* ? Why's it Not Working?*/
+    /*background-color: black; /* ? Why's it Not Working?*/
+    background: linear-gradient(rgb(1, 58, 1), rgb(1, 1, 83));
+}
+nav ul li:hover{
+    /* background: blue; */
+    /* background: linear-gradient( rgb(21, 21, 167), rgb(10, 82, 10)); */
+    /* background: linear-gradient(black, blue, green, yellow, gold, red); */
+    /* background: linear-gradient( red, gold, yellow, green, blue, black); */
+    background: linear-gradient(rgb(0, 255, 0), rgb(0, 0, 255));
 }
 #active {
     background: linear-gradient( rgb(6, 6, 46), rgb(27, 184, 13));
