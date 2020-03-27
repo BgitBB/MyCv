@@ -10,10 +10,17 @@
 
 /* Element Seletors */
 body{
-    color: rgb(18, 32, 231);
-    background-color: skyblue;
+    /* color: rgb(18, 32, 231); */
+    /* color: white; */
+    color: rgb(168, 202, 157);
+    /* background-color: rgb(43, 39, 39); */
+    background-color: rgb(0, 0, 0);
     /* border: solid 10px lightgrey; */
     margin: 10px;
+
+    /* background: url("../images/sky-space-milky-way-stars-1108542.jpg") repeat; */
+    /* background: url("../images/sky-space-milky-way-stars-1108542.jpg") no-repeat; */
+    /* background-size: cover; */
 }
 header{
     position: fixed;
@@ -22,6 +29,8 @@ header{
     padding: 0;
     top: 0;
     left: 0;
+    /* background-color: black;
+    height: 10%; */
 
     /* background-color: rgba(141, 103, 0, 0.8); */
 
@@ -41,6 +50,12 @@ header{
     margin-top: 100px;
     width: 80%;
     margin-left: 10%;
+    background-color: skyblue;
+    padding: 0px 10px 0px 10px;
+    box-shadow: 0 5px 20px red, 0 10px 30px blue, 0 5px 200px #222222;
+    /* background: linear-gradient(rgb(29, 29, 160), rgb(201, 110, 110)); */
+    background: linear-gradient( rgba(6, 6, 46, 0.562), rgb(27, 184, 13));
+    /* background: linear-gradient( rgb(6, 6, 46), rgb(27, 184, 13)); */
 }
 section{
     
@@ -53,8 +68,8 @@ section{
 }
 article{
     text-align: justify;
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
 }
 /* article p {
     border: solid yellow;
@@ -82,7 +97,9 @@ nav > ul > li{
     font-size: 20px;
     /* border: solid; */
     /* background-color: rgba(141, 103, 0, 0.8); */
-    background-color: rgba(7, 10, 180, 0.836);
+    /* background-color: rgba(7, 10, 180, 0.836); */
+    /* background-color: rgb(5, 46, 8); */
+    background: linear-gradient(green, blue);
     /* background-color: rgba(141, 103, 0, 0.6);; */
     padding: 0 5px;
     border-radius: 20%;
@@ -99,17 +116,22 @@ nav ul li a{
     text-align: center;
     padding: 10px 0px;
     /* background-color: rgba(141, 103, 0, 0.6); */
-    background-color: skyblue;
+    /* background-color: rgb(0, 0, 0); */
+    background: linear-gradient(rgb(10, 82, 10), rgb(21, 21, 167));
     border-radius: 30%;
-    color: rgba(7, 10, 180, 0.836);
+    /* color: rgba(7, 10, 180, 0.836); */
+    color: rgb(168, 202, 157);
     /* color: rgba(141, 103, 0, 0.6);; */
 }
 nav ul li a:hover{
-    background-color: rgb(148, 109, 3);
-    color: rgb(253, 253, 253);
+    /* background-color: rgb(148, 109, 3); */
+    color: rgb(255, 255, 255);
+    /* text-shadow: 0 0 70px rgb(4, 14, 49); */
+    text-shadow: 0px 0px 10px rgb(221, 55, 55);
+    background-color: black; /* ? Why's it Not Working?*/
 }
 #active {
-    background-color: blue;
+    background: linear-gradient( rgb(6, 6, 46), rgb(27, 184, 13));
     color: rgb(253, 253, 253);
 }
 .mw {
@@ -125,6 +147,7 @@ nav ul li a:hover{
     border-radius: 100%;
     float: left;
     margin: 0px 15px 0px 3px; 
+    /* box-shadow: 2px 2px 5px green; */
 
 }
 #clear{
@@ -148,6 +171,7 @@ footer{
     text-align: center;
     width: 80%;
     margin-left: 10%;
+    padding: 0px 10px;
 }
 
 #contact {
