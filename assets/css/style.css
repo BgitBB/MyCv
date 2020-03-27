@@ -54,7 +54,8 @@ header{
     margin-left: 10%;
     background-color: skyblue;
     padding: 0px 10px 0px 10px;
-    box-shadow: 0 5px 20px red, 0 10px 30px blue, 0 5px 200px #222222;
+    /* box-shadow: 0 5px 20px black, 0 10px 30px green, 0 5px 200px #222222; */
+    box-shadow: 0 5px 20px black, 20px 30px 30px black, 0 5px 200px #222222;
     /* background: linear-gradient(rgb(29, 29, 160), rgb(201, 110, 110)); */
     /* background: linear-gradient( rgba(6, 6, 46, 0.562), rgb(27, 184, 13)); */
     background: linear-gradient( rgb(6, 6, 46), rgb(27, 184, 13));
@@ -67,6 +68,7 @@ section{
     border-bottom: solid;
     overflow: auto;
 
+    box-shadow: 15px 15px 30px #222222;
 }
 /* section:hover{
     background-color: rgba(25, 165, 7, 0.6);
